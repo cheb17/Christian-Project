@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    text-align: center;
+}
+
+/* NAVBAR */
+nav{
+    padding: 100px;
+    font-size: 25px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* MAIN */
+.shop{
+    font-size: 100px;
+    /* margin-left: 100px; */
+}
+.name{
+    margin-left: 150px;
+}
+.content{
+    margin-top: 300px;
+    text-align: LEFT;
+}
+.main{
+    text-align: RIGHT;
+    /* margin-top: -500px; */
+}
+.mainshoe{
+    margin-top: -280px;
+    height: 770px;
+    width: 770px;
+    /* if they ask how you did the shadow, it's this "filter" */
+    /* it's different from the box-shadow */
+    /* the filter one automatically puts a shadow on the shape of your image */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow read this */
+    filter: drop-shadow(-40px 30px 0.75rem #A0A0A0);
+}
+
+/* FOOTER */
+.card-footer{
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+}
+.bg{
+    background-color: #C8C8C8;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+}
